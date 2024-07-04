@@ -9,7 +9,7 @@ class Profile(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     name = models.CharField(max_length=255, blank=True)
     content = models.TextField(blank=True)
-    curator = models.BooleanField(default=False)
+    #curator = models.BooleanField(default=False)
     image = models.ImageField(
         upload_to='images/', default='../default_profile_kw0d6q'
     )
