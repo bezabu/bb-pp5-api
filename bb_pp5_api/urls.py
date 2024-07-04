@@ -30,6 +30,6 @@ urlpatterns = [
     path('', include('comments.urls')),
     path('', include('likes.urls')),
     path('', include('follows.urls')),
-    #path('', include('votes.urls')),
+    path('', include('votes.urls')),
     path('', include('genres.urls')),
 ]
