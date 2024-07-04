@@ -27,7 +27,7 @@ urlpatterns = [
     path('', include('profiles.urls')),
     path('', include('movies.urls')),
     path('', include('reviews.urls')),
-    #path('', include('comments.urls')),
+    path('', include('comments.urls')),
     #path('', include('likes.urls')),
     path('', include('follows.urls')),
     #path('', include('votes.urls')),
