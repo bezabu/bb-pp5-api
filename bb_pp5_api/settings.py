@@ -44,7 +44,7 @@ DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
    os.environ.get('ALLOWED_HOST'),
-   'localhost', '8000-bezabu-bbpp5api-s5b0amq1u10.ws-eu115.gitpod.io', 'https://bb-pp5-api-c8624a6ee9af.herokuapp.com/'
+   'localhost', '8000-bezabu-bbpp5api-s5b0amq1u10.ws-eu115.gitpod.io', 'bb-pp5-api-c8624a6ee9af.herokuapp.com'
 ]
 
 
