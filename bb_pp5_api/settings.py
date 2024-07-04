@@ -49,6 +49,14 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     'corsheaders',
+    'profiles',
+    'genres',
+    'movies',
+    'follows',
+    'reviews',
+    'comments',
+    'likes',
+    'votes',
 ]
 
 MIDDLEWARE = [
