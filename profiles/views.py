@@ -1,7 +1,7 @@
 from django.db.models import Count
 from rest_framework import generics, filters
 from django_filters.rest_framework import DjangoFilterBackend
-from pp5_drf_api2.permissions import IsOwnerOrReadOnly
+from bb_pp5_api.permissions import IsOwnerOrReadOnly
 from .models import Profile
 from .serializers import ProfileSerializer
 
